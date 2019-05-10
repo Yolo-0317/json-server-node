@@ -6,6 +6,13 @@ git clone后直接执行
 > npm start
 通过nodemon启动服务，监控dbs文件中的json文件变化，自动重启服务
 
+服务启动后会自动列出现有的可用API，可通过设置db.js中的excludes中的文件夹列表，忽略掉某些文件夹中的json文件
+```
+// db.js
+const excludes = ['demo']; // 要忽略的文件夹
+readAllFilesInFolderSync('./dbs/', allDBFiles, excludes);
+```
+
 默认端口4000
 
 启动示例：
