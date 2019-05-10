@@ -26,7 +26,7 @@ function readAllFilesInFolder(dir, fileList = []) {
 }
 
 // 读取目录下的所有文件，不区分类别
-function readAllFilesInFolderSync(dir, fileListSync) {
+function readAllFilesInFolderSync(dir, fileListSync, excludes = []) {
   const absDir = path.resolve(dir);
   // 读取目录下面的文件，返回目录下的文件列表对象，如果传入的是个文件，返回这个文件
   const dirChilds = fs.readdirSync(absDir, {});
@@ -41,8 +41,12 @@ function readAllFilesInFolderSync(dir, fileListSync) {
         if (isFile) {
           fileListSync.push(curPath);
         } else {
-          // 递归处理
-          readAllFilesInFolderSync(curPath, fileListSync);
+          // 判断是否忽略当前文件夹
+          // eslint-disable-next-line no-lonely-if
+          if (!excludes.includes(dc)) {
+            // 递归处理
+            readAllFilesInFolderSync(curPath, fileListSync);
+          }
         }
       }
     });

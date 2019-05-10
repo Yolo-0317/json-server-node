@@ -1,13 +1,9 @@
 const { readAllFilesInFolderSync } = require('./readFiles');
 
 const allDBFiles = [];
-readAllFilesInFolderSync('./dbs/', allDBFiles);
-console.log(allDBFiles);
-
-// module.exports = function () {
-//   return Object.assign({},
-//     require('./dbs/smline/matchedStocks.json'));
-// };
+const excludes = ['demo']; // 要忽略的文件夹
+readAllFilesInFolderSync('./dbs/', allDBFiles, excludes);
+// console.log(allDBFiles);
 
 module.exports = () => {
   const result = {};
