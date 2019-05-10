@@ -1,0 +1,6 @@
+{
+  "getUserProfit": {
+    "success":true,
+    "message":"Success?",
+    "data":{"userId":"110020634","totalIncome":-632.8700000000001,"totalRate":-0.14917830261407106,"defeatPercentage":22}}
+}
