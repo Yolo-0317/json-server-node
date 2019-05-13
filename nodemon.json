@@ -15,7 +15,8 @@
     "ext": "js json",
     "watch":[
       "./dbs/**",
-      "./server.js"
+      "./server.js",
+      "./db.js"
     ],
     "env":{
       "NODE_ENV":"DEV" 

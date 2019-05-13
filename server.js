@@ -7,7 +7,6 @@ const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
 
 const allRoutesKey = Object.keys(db);
-console.log('objectdsfe ----');
 
 server.use(middlewares);
 server.use(router);

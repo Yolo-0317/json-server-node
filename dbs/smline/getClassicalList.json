@@ -1,0 +1,31 @@
+{
+  "getClassicalList": {
+    "data": {
+      "collection": [ 
+        { 
+          "id": 357,
+          "name": "仙人指路",
+          "value": 3
+        },
+        { 
+          "id": 356,
+          "name": "定海神针",
+          "value": 4
+        },
+        { 
+          "id": 358,
+          "name": "双针探海",
+          "value": 14
+        },
+        { 
+          "id": 359,
+          "name": "葵花向阳",
+          "value": 2
+        }
+      ],
+      "size": 1
+    },
+    "message": "success", 
+    "success": true 
+  }
+}

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// 读取目录下的所有文件，不区分类别，TODO:下面的代码是异步的带优化，暂未调通
-function readAllFilesInFolder(dir, fileList = []) {
+// 读取目录下的所有文件，不区分类别，TODO:下面的代码是异步的待优化，暂未调通
+function readAllFilesInFolderAsync(dir, fileList = []) {
   const absDir = path.resolve(dir);
   // 读取目录下面的文件，返回目录下的文件列表对象，如果传入的是个文件，返回这个文件
   fs.readdir(dir, {}, (error, dirChilds) => {
@@ -24,6 +24,7 @@ function readAllFilesInFolder(dir, fileList = []) {
     }
   });
 }
+
 
 // 读取目录下的所有文件，不区分类别
 function readAllFilesInFolderSync(dir, fileListSync, excludes = []) {
@@ -53,4 +54,11 @@ function readAllFilesInFolderSync(dir, fileListSync, excludes = []) {
   }
 }
 
-module.exports = { readAllFilesInFolder, readAllFilesInFolderSync };
+function readAllFilesInFolder(dir, excludes) {
+  const allFiles = [];
+  readAllFilesInFolderSync(dir, allFiles, excludes);
+  return allFiles;
+}
+
+
+module.exports = { readAllFilesInFolder, readAllFilesInFolderAsync, readAllFilesInFolderSync };

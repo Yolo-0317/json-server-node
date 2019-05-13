@@ -1,0 +1,8 @@
+
+{
+  "getStockTradeBehavior": {
+    "success":true,
+    "message":"Success?",
+    "data":{"scatter":"持股集中度不明显","self":{"turnOver":0.475,"meanPosition":0.27,"meanHoldDuration":130.0,"meanHoldNum":1.8},"holdDuration":"长线持股","position":"习惯股票轻仓","turnOver":"超低频股票交易者","turnOverRank":0.13,"aver":{"turnOver":23.66851158,"meanPosition":0.77987037,"meanHoldDuration":101.01757592,"meanHoldNum":3.32453228}}
+  }
+}

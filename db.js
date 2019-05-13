@@ -1,8 +1,7 @@
-const { readAllFilesInFolderSync } = require('./readFiles');
+const { readAllFilesInFolder } = require('./readFiles');
 
-const allDBFiles = [];
-const excludes = ['demo']; // 要忽略的文件夹
-readAllFilesInFolderSync('./dbs/', allDBFiles, excludes);
+const excludes = ['demo', 'huaan']; // 要忽略的文件夹
+const allDBFiles = readAllFilesInFolder('./dbs/', excludes);
 // console.log(allDBFiles);
 
 module.exports = () => {
