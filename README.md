@@ -2,6 +2,8 @@
 support multiply files config
 基于node启动的json-server的mock系统，启动后自动读取指定目录dbs中的json文件，node版本v10LTS
 
+[json-server相关知识](https://github.com/ShadowWalker627/json-server-node/issues/1)
+
 git clone后直接执行
 > npm start
 
