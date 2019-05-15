@@ -13,7 +13,7 @@ git clone后直接执行
 ```
 // db.js
 const excludes = ['demo']; // 要忽略的文件夹
-readAllFilesInFolderSync('./dbs/', allDBFiles, excludes);
+const allDBFiles = readAllFilesInFolder('./dbs/', excludes);
 ```
 
 默认端口4000
