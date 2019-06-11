@@ -1,0 +1,41 @@
+{
+  "getMarketData": {
+    "dy_code": 200,
+    "dy_message": "",
+    "dy_message_code": "",
+    "dy_data": [{
+    "securityId": 2118585,
+    "tickerSymbol": "105413",
+    "exchange": "XSHE",
+    "securityName": "河北1912",
+    "asOfDate": "2019-06-05",
+    "exchangeTime": "2019-06-05 16:45:03",
+    "price": 100.0,
+    "previousPrice": 100.0,
+    "turnover": 0,
+    "value": 0.0,
+    "bidPrice": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "bidAmount": [0, 0, 0, 0, 0],
+    "askPrice": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "askAmount": [0, 0, 0, 0, 0],
+    "highPrice": 0.0,
+    "lowPrice": 0.0,
+    "openPrice": 0.0,
+    "receivedTime": "2019-06-05 16:45:01",
+    "yieldRate": 0,
+    "yieldValue": 0.0,
+    "priceLimitHigh": null,
+    "priceLimitLow": null,
+    "isLimitUp": false,
+    "isLimitDown": false,
+    "buyableQuantity": null,
+    "shortableQuantity": null,
+    "tradingUnit": null,
+    "priceUnit": null,
+    "refAskRate": null,
+    "refBidRate": null,
+    "middleRate": null
+    }],
+    "dy_error": ""
+  }
+}

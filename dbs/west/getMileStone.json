@@ -1,0 +1,9 @@
+{
+  "getMileStone":{
+    "success":true,
+    "message":"Success?",
+    "data":{
+      "holdTickerNum":0,"tradeRecordNum":0,"tradeDays":6163,"openDate":"19940106","capitalInputDate":"20040910","capitalInputValue":30000.0,"cyDate":null,"rzrqDate":null,"xsbDate":null,"nhgDate":null,"fxjsDate":null,"gpqqDate":null,"ggtDate":null,"stockBuyDate":"19990322","stockBuyStocks":"百联股份","stockSellDate":"19990204","stockSellStocks":"0505","hkBuy":null,"hkBuyStocks":null,"stockFHDate":"20010525","stockFHStocks":"酒钢宏兴","fundSG":null,"fundRG":null,"fundSH":null,"fundFH":null,"fundFHFunds":null,"sypzDate":null,"sypzValue":0.0,"dxDate":"20071022","dxStocks":"御银股份,延华智能","dxzqDate":null,"dxzqStocks":null
+    }
+  }
+}

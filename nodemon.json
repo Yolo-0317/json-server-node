@@ -16,6 +16,7 @@
     "watch":[
       "./dbs/**",
       "./server.js",
+      "./public/**",
       "./db.js"
     ],
     "env":{

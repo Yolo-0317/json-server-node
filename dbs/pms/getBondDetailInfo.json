@@ -1,0 +1,31 @@
+{
+  "getBondDetailInfo": {
+    "dy_code": 200,
+    "dy_message": "true",
+    "dy_message_code": null,
+    "dy_data": {
+      "asset": {
+      "secID": "010014.XIBE",
+      "secShortName": "2001年记账式(十四期)国债",
+      "listDate": "2001-12-25",
+      "delistDate": "2008-11-30",
+      "maturityDate": "2008-12-10",
+      "latestAccrDate": "",
+      "par": 100,
+      "typeName": "国债",
+      "comRating": null,
+      "issuer": "中华人民共和国财政部",
+      "assetType": null,
+      "coupon": 2.9,
+      "paymentCD": "M",
+      "couponTypeCD": "FIXED",
+      "cpnFreqCD": "1PY",
+      "netPx": null,
+      "issueDuration": 0,
+      "restDuration": -6357,
+      "issuerRating": null,
+      "currentPar": null
+      }
+    }
+  }
+}
