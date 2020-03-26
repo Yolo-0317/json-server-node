@@ -1,9 +1,9 @@
 import _ from 'lodash';
-import randomBoolean from '../random/randomBoolean';
-import randomDate from '../random/randomDate';
-import randomSafeInteger from '../random/randomSafeInteger';
-import randomNumber from '../random/randomNumber';
-import randomString from '../random/randomString';
+import randomBoolean from './random/randomBoolean';
+import randomDate from './random/randomDate';
+import randomSafeInteger from './random/randomSafeInteger';
+import randomNumber from './random/randomNumber';
+import randomString from './random/randomString';
 
 // 根据「值」返回mock数据
 export default function getValueMock(value) {

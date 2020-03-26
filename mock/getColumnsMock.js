@@ -1,4 +1,6 @@
+/* eslint-disable import/no-unresolved */
 import _ from 'lodash';
+
 import getValueMock from './getValueMock';
 
 // 根据「表格列」返回相关mock数据
