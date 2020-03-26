@@ -1,0 +1,24 @@
+{
+  "getRecentDynamic": {
+    "success": true,
+    "message": "Success?",
+    "data": {
+      "assetsValue": 504712.46,
+      "assetsRatio": -0.3588,
+      "assetsChart": [
+        {
+        "d": "20181112",
+        "v": 4000,
+        "i": 0
+        },
+        {
+        "d": "20181122",
+        "v": 6789,
+        "i": 0
+        }
+      ],
+      "turnoverValue": 0.0045,
+      "turnoverRatio": -0.3588
+    }
+  }
+}

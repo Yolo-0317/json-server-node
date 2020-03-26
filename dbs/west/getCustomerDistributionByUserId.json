@@ -1,0 +1,54 @@
+{
+  "getCustomerDistributionByUserId": {
+    "success":true,
+    "message":"Success?",
+    "data":{
+      "customerNum":7,"percent":0.0,"avgTotalAsset":714285.714286,
+      "assetDr":[{"name":"超高净值","value":0.14285714285714285},{"name":"高净值","value":0.0},{"name":"中散","value":0.0},{"name":"小散","value":0.0}],
+      "avgStockPosition":0.0,
+      "positionDr":[{"name":"习惯重仓","value":0.14285714285714285},{"name":"中度仓位","value":0.0},{"name":"习惯轻仓","value":0.0}],
+      "avgCaptialTurnover":0.0,
+      "turnoverDr":[{"name":"资金周转率高","value":0.0},{"name":"资金周转率较高","value":0.0},{"name":"资金周转率一般","value":0.0},{"name":"资金周转率低","value":0.0},{"name":"资金周转率较低","value":0.0},{"name":"无资金周转","value":0.0}],"tagDr":[[{"id":39,"name":"大盘股偏好","count":0,"percent":0.8571428571428571,"top":0,"description":null},{"id":40,"name":"小盘股偏好","count":0,"percent":0.42857142857142855,"top":0,"description":null}],[{"id":41,"name":"偏好高价值股","count":0,"percent":0.5714285714285714,"top":0,"description":null}],[{"id":45,"name":"偏好高盈利股","count":0,"percent":0.5714285714285714,"top":0,"description":null}],[{"id":2047,"name":"打新热衷者","count":0,"percent":0.42857142857142855,"top":0,"description":null},{"id":2046,"name":"打新狂热者","count":0,"percent":0.14285714285714285,"top":0,"description":null}],[{"id":76,"name":"研报狂热者","count":0,"percent":0.42857142857142855,"top":0,"description":null}],[{"id":217,"name":"偏好高杠杆股","count":0,"percent":0.2857142857142857,"top":0,"description":null}],[{"id":72,"name":"公告事件狂热者","count":0,"percent":0.2857142857142857,"top":0,"description":null}],[{"id":2062,"name":"打新运气平平","count":0,"percent":0.14285714285714285,"top":0,"description":null}],[{"id":78,"name":"打板狂热者","count":0,"percent":0.14285714285714285,"top":0,"description":null}],[{"id":214,"name":"偏好低市盈股","count":0,"percent":0.14285714285714285,"top":0,"description":null}]],"assetTags":null,"profitTags":null,"riskTags":null,"tradeTags":null,"styleTags":null,"abilityTags":null,
+      "noticeTags":[
+        {
+          "id":2045,"name":"大幅亏损","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,
+          "conditions":[
+            {"id":3689,"tagId":2045,"fieldId":1040,
+              "field":{"id":1040,"groupId":1,"description":null,"source":null,"dataType":2,"tableInd":1,"tableCol":"profitAnalysisCumReturn30","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"累计收益（近一月）"},
+              "fieldOperator":"<","fieldCondition":0.7,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""
+              }],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null
+        },
+        {
+          "id": 30077,
+          "tagId": 4316,
+          "fieldId": 3201,
+          "field": {
+            "id": 3201,
+            "groupId": 15,
+            "description": "客户在股票投资上的地域偏好",
+            "source": null,
+            "dataType": 4,
+            "tableInd": 3,
+            "tableCol": "userPreferAddressRegProvince",
+            "check": null,
+            "l1Id": 7,
+            "l1Name": "投资风格",
+            "l2Id": 15,
+            "l2Name": null,
+            "showType": 3,
+            "parent": false,
+            "name": "偏爱地域"
+          },
+          "fieldOperator": "湖北省,河北省",
+          "fieldCondition": 0,
+          "limitSize": 0,
+          "limitRate": 0,
+          "name": "偏爱地域",
+          "fieldOperatorNotNull": "湖北省,河北省",
+          "nameNotNull": "偏爱地域"
+        },
+        {
+          "id":2046,"name":"打新狂热者","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":3093,"tagId":2046,"fieldId":7126,"field":{"id":7126,"groupId":11,"description":"客户参与新股申请的次数","source":null,"dataType":1,"tableInd":7,"tableCol":"applicationNum","check":null,"l1Id":5,"l1Name":"交易属性","l2Id":11,"l2Name":null,"showType":1,"parent":false,"name":"打新次数"},"fieldOperator":">","fieldCondition":154.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":24,"name":"超高净值","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":280,"tagId":24,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":">=","fieldCondition":2000000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">=","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":25,"name":"高净值","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":281,"tagId":25,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":"<","fieldCondition":2000000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""},{"id":282,"tagId":25,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":">=","fieldCondition":500000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">=","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":26,"name":"中散","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":286,"tagId":26,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":"<","fieldCondition":500000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""},{"id":287,"tagId":26,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":">=","fieldCondition":100000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">=","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":27,"name":"小散","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":16,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":285,"tagId":27,"fieldId":1001,"field":{"id":1001,"groupId":1,"description":null,"source":"","dataType":2,"tableInd":1,"tableCol":"assetAnalysisMeanAsset","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"资产总值的均值"},"fieldOperator":"<","fieldCondition":100000.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":2,"name":"老年股民","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":2,"tagId":2,"fieldId":4,"field":{"id":4,"groupId":1,"description":"根据客户的生日计算得出的真实年龄","source":null,"dataType":1,"tableInd":0,"tableCol":"age","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"年龄"},"fieldOperator":">=","fieldCondition":60.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">=","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":3,"name":"中年股民","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":3,"tagId":3,"fieldId":4,"field":{"id":4,"groupId":1,"description":"根据客户的生日计算得出的真实年龄","source":null,"dataType":1,"tableInd":0,"tableCol":"age","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"年龄"},"fieldOperator":">=","fieldCondition":35.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">=","nameNotNull":""},{"id":4,"tagId":3,"fieldId":4,"field":{"id":4,"groupId":1,"description":"根据客户的生日计算得出的真实年龄","source":null,"dataType":1,"tableInd":0,"tableCol":"age","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"年龄"},"fieldOperator":"<","fieldCondition":60.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null},{"id":4,"name":"年轻股民","description":null,"creatorId":0,"insertTime":null,"updateTime":null,"coveredNum":0,"active":0,"groupId":0,"type":0,"top":0,"topTime":null,"advisor":null,"cloneable":true,"conditions":[{"id":5,"tagId":4,"fieldId":4,"field":{"id":4,"groupId":1,"description":"根据客户的生日计算得出的真实年龄","source":null,"dataType":1,"tableInd":0,"tableCol":"age","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"年龄"},"fieldOperator":">","fieldCondition":0.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":">","nameNotNull":""},{"id":6,"tagId":4,"fieldId":4,"field":{"id":4,"groupId":1,"description":"根据客户的生日计算得出的真实年龄","source":null,"dataType":1,"tableInd":0,"tableCol":"age","check":null,"l1Id":1,"l1Name":"基础属性","l2Id":1,"l2Name":"人口信息","showType":1,"parent":false,"name":"年龄"},"fieldOperator":"<","fieldCondition":35.0,"limitSize":1,"limitRate":0.1,"name":null,"fieldOperatorNotNull":"<","nameNotNull":""}],"creator":null,"groupName":null,"field2TagMap":null,"strFieldConditions":null}]
+    }
+  }
+}

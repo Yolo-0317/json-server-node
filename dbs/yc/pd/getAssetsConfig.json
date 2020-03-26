@@ -1,0 +1,42 @@
+{
+  "getAssetsConfig": {
+    "success": true,
+    "message": "Success?",
+    "data": {
+    "totalAsset": 10200,
+    "hs": "您的资产主要配置在基金，可适当多元化配置，分散风险。",
+    "assetList": [
+    {
+    "name": "股票",
+    "percent": 0.8832,
+    "value": 3006.32
+    },
+    {
+    "name": "基金",
+    "percent": 0.313,
+    "value": 90.32
+    },
+    {
+    "name": "逆回购",
+    "percent": 0.313,
+    "value": 90.32
+    },
+    {
+    "name": "债券",
+    "percent": 0.313,
+    "value": 90.32
+    },
+    {
+    "name": "现金",
+    "percent": 0.313,
+    "value": 90.32
+    },
+    {
+    "name": "其他",
+    "percent": 0.313,
+    "value": 90.32
+    }
+    ]
+    }
+  }
+}
